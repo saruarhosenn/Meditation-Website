@@ -1,0 +1,145 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: .4rem;
+	background: #FFFFFF;
+	z-index: 999;
+}
+
+.logo a img {
+	max-width: 10rem;
+}
+
+.header-text h3 {
+	word-spacing: .4rem;
+	letter-spacing: .2rem;
+}
+
+.h-sign-in-up ul li:first-child {
+	margin-right: 2rem;
+}
+
+.h-sign-in-up ul li .play-btn {
+	width: 4.4rem;
+	height: 4.4rem;
+	border: .2rem solid #B6A75B;
+	margin-bottom: 1.5rem;
+}
+
+.open-menu-btn {
+	cursor: pointer;
+	z-index: 99999;
+	position: relative;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 3.5rem;
+	height: .5rem;
+	background: #B6A75B;
+	margin: .6rem 0;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	-ms-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-10px, -7px);
+	-ms-transform: rotate(45deg) translate(-10px, -7px);
+	transform: rotate(45deg) translate(-10px, -7px);
+}
+
+@media (max-width: 767px) {
+
+	.h-sign-in-up ul li:nth-child(2) {
+		margin-right: 3rem;
+	}
+
+	.mobail-menu {
+		position: fixed;
+		right: -100%;
+		top: 0;
+		height: 100vh;
+		background: #FFFFFF;
+		width: 50%;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+		z-index: 9999;
+	}
+
+	.open-menu {
+		right: 0;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+	}
+
+	.mobail-menu ul {
+		width: 100%;
+	}
+
+	.mobail-menu ul li:not(:last-child) {
+		margin-bottom: 2rem;
+	}
+
+	.mobail-menu ul li a {
+		color: #000000 !important;
+	}
+
+	.mobail-menu ul li a.active {
+		color: #B6A75B !important;
+	}
+
+	.mobail-menu ul li a:hover {
+		color: #B6A75B !important;
+	}
+}
+
+@media (max-width: 575px) {
+
+	.h-sign-in-up ul li:nth-child(2) {
+		margin-right: 2.5rem;
+	}
+
+	.mobail-menu {
+		width: 60%;
+	}
+}
+
+@media (max-width: 475px) {
+
+	.mobail-menu {
+		width: 65%;
+	}
+}
+
+@media (max-width: 400px) {
+	
+	.logo a img {
+		max-width: 8rem;
+	}
+	
+	.h-sign-in-up ul li a {
+		font-size: 1.5rem;
+	}
+
+	.h-sign-in-up ul li:nth-child(2) {
+		margin-right: 2rem;
+	}
+
+	.mobail-menu {
+		width: 85%;
+	}
+}

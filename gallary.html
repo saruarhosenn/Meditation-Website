@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<!------- FONTS ------->
+	<link rel="stylesheet" href="assets/fonts/fonts.css">
+	<!----- CSS HERE ----->
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/reuseble-code.css" />
+	<link rel="stylesheet" href="assets/css/header.css" />
+	<link rel="stylesheet" href="assets/css/footer.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+
+	<!-- 
+	  =====================================================
+	  Start Header Section 
+	  =====================================================
+	-->
+	<header class="drope-shadow" style="position: static;">
+		<div class="container">
+			<div class="d-flex justify-content-between align-items-end">
+				<div class="logo">
+					<a href="gallary.html"><img src="assets/images/footer-logo.png" alt="logo"></a>
+				</div>
+				<div class="header-text tc d-none d-md-block">
+					<h3 class="ps-700 cb6 uppercase s20">SATORI MEDITATIONS | DHAKA</h3>
+				</div>
+				<div class="h-sign-in-up">
+					<ul class="d-flex align-items-end">
+						<li>
+							<a href="signup.html" class="ps-700 s18 uppercase cb6">SIGN UP</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" class="d-block d-flex justify-content-center align-items-center circle play-btn ms-auto"><img src="assets/svg-icon/play.svg" alt="play"></a>
+							<a href="signin.html" class="ps-700 s18 uppercase c4a">SIGN IN</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- 
+	  =====================================================
+	  End Header Section 
+	  =====================================================
+	-->
+
+
+	<!------------------------->
+	<!---- Start Main Area ---->
+	<main>
+
+		<!-- 
+		  =====================================================
+		  Start Banner Section 
+		  =====================================================
+		-->
+		<section class="same-bg">
+			<div class="container">
+				<div class="same-bg-text tc">
+					<h1 class="ps-700 c00 s38">Our Gallary</h1>
+					<ul class="d-flex align-items-center justify-content-center">
+						<li><a href="index.html" class="ps-700 cff s18">Home</a></li>
+						<li class="ps-700 cff s18">|</li>
+						<li><a href="javascript:void(0)" class="ps-700 cb6 s18">Gallary</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End Banner Section 
+		  =====================================================
+		-->
+
+
+		<!-- 
+		  =====================================================
+		  Start Gellary Section 
+		  =====================================================
+		-->
+		<section class="gellary-section pb-100">
+			<div class="container">
+				<div class="tab__area">
+					<!---- TAB BTN ---->
+					<div class="tab d-flex">
+						<button type="button" class="tablinks tc ps-700" onclick="openCity(event, 'London')" id="defaultOpen">Images</button>
+						<button type="button" class="tablinks tc ps-700" onclick="openCity(event, 'Paris')">Videos</button>
+					</div>
+
+					<!-------- TAB CONTENT -------->
+					<div class="main__tab">
+						<div id="London" class="tabcontent">
+							<!---- TAB BTN ---->
+							<div class="tc t-btn">
+								<a href="#tab1" data-tab="tab1" class="b-nav-tab active ps-700 c00 s22">Facilities</a>
+								<a href="#tab2" data-tab="tab2" class="b-nav-tab ps-700 c00 s22">Events</a>
+								<a href="#tab3" data-tab="tab3" class="b-nav-tab ps-700 c00 s22">Workshops</a>
+							</div>
+							
+							<!-------- TAB CONTENT-1 -------->
+							<div class="b-tab active" id="tab1">
+								<div class="filtering-btn ga-filtering-btn tc">
+									<button type="button" class="ps-700 c00 s18" data-filter="all">Zorba</button>
+									<button type="button" class="ps-700 c00 s18" data-filter=".Treenayana">Treenayana</button>
+									<button type="button" class="ps-700 c00 s18" data-filter=".Library">Library</button>
+									<button type="button" class="ps-700 c00 s18" data-filter=".Therapy">Therapy room</button>
+									<button type="button" class="ps-700 c00 s18" data-filter=".Shower">Shower</button>
+									<button type="button" class="ps-700 c00 s18" data-filter=".Locker">Locker</button>
+								</div>
+								<div class="row g-5 mix-filter">
+									<div class="col-sm-4">
+										<div class="row g-5">
+											<div class="col-12 mix Treenayana Therapy Shower">
+												<div class="ga-img">
+													<img src="assets/images/gallary1.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12 mix Therapy">
+												<div class="ga-img">
+													<img src="assets/images/gallary4.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12 mix Shower Library">
+												<div class="ga-img">
+													<img src="assets/images/gallary5.png" alt="gallary" class="img">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="row g-5">
+											<div class="col-12 mix Locker">
+												<div class="ga-img">
+													<img src="assets/images/gallary2.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12 mix Therapy Library">
+												<div class="ga-img">
+													<img src="assets/images/gallary6.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12 mix Treenayana Locker">
+												<div class="ga-img">
+													<img src="assets/images/gallary8.png" alt="gallary" class="img">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="row g-5">
+											<div class="col-12 mix Library Shower">
+												<div class="ga-img">
+													<img src="assets/images/gallary3.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12 mix Locker">
+												<div class="ga-img">
+													<img src="assets/images/gallary7.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12 mix Locker">
+												<div class="ga-img">
+													<img src="assets/images/gallary9.png" alt="gallary" class="img">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="ga-btn">
+											<a href="javascript:void(0)" class="mx-auto cff secondary-btn">See More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-------- TAB CONTENT-2 -------->
+							<div class="b-tab" id="tab2">
+								<div class="row g-5">
+									<div class="col-sm-4">
+										<div class="row g-5">
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/s4.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/gallary4.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/gallary5.png" alt="gallary" class="img">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="row g-5">
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/s5.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/gallary6.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/gallary8.png" alt="gallary" class="img">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="row g-5">
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/s6.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/gallary7.png" alt="gallary" class="img">
+												</div>
+											</div>
+											<div class="col-12">
+												<div class="ga-img">
+													<img src="assets/images/gallary9.png" alt="gallary" class="img">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-------- TAB CONTENT-3 -------->
+						<div class="b-tab" id="tab3">
+							<div class="row g-5">
+								<div class="col-sm-4">
+									<div class="row g-5">
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/s1.png" alt="gallary" class="img">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/gallary4.png" alt="gallary" class="img">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/gallary5.png" alt="gallary" class="img">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-4">
+									<div class="row g-5">
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/s2.png" alt="gallary" class="img">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/gallary6.png" alt="gallary" class="img">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/gallary8.png" alt="gallary" class="img">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-sm-4">
+									<div class="row g-5">
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/s3.png" alt="gallary" class="img">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/gallary7.png" alt="gallary" class="img">
+											</div>
+										</div>
+										<div class="col-12">
+											<div class="ga-img">
+												<img src="assets/images/gallary9.png" alt="gallary" class="img">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-------- TAB CONTENT -------->
+				<div id="Paris" class="tabcontent gallary-tab-video">
+					<div class="row g-5">
+						<div class="col-md-4 col-sm-6">
+							<div class="gallary-video">
+								<iframe width="100%" height="165" src="https://www.youtube.com/embed/t0kACis_dJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="d-flex justify-content-between align-items-end">
+								<p class="ps-400 s12 c86">Briting into Sleep</p>
+								<p class="ps-400 s12 c86">10:23min</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="gallary-video">
+								<iframe width="100%" height="165" src="https://www.youtube.com/embed/t0kACis_dJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="d-flex justify-content-between align-items-end">
+								<p class="ps-400 s12 c86">Briting into Sleep</p>
+								<p class="ps-400 s12 c86">10:23min</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="gallary-video">
+								<iframe width="100%" height="165" src="https://www.youtube.com/embed/t0kACis_dJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="d-flex justify-content-between align-items-end">
+								<p class="ps-400 s12 c86">Briting into Sleep</p>
+								<p class="ps-400 s12 c86">10:23min</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="gallary-video">
+								<iframe width="100%" height="165" src="https://www.youtube.com/embed/t0kACis_dJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="d-flex justify-content-between align-items-end">
+								<p class="ps-400 s12 c86">Briting into Sleep</p>
+								<p class="ps-400 s12 c86">10:23min</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="gallary-video">
+								<iframe width="100%" height="165" src="https://www.youtube.com/embed/t0kACis_dJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="d-flex justify-content-between align-items-end">
+								<p class="ps-400 s12 c86">Briting into Sleep</p>
+								<p class="ps-400 s12 c86">10:23min</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="gallary-video">
+								<iframe width="100%" height="165" src="https://www.youtube.com/embed/t0kACis_dJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="d-flex justify-content-between align-items-end">
+								<p class="ps-400 s12 c86">Briting into Sleep</p>
+								<p class="ps-400 s12 c86">10:23min</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End Gellary Section 
+		  =====================================================
+		-->
+
+	</main>
+	<!----- End Main Area ----->
+	<!------------------------->
+
+
+	<!-- 
+	  =====================================================
+	  Start Footer Section 
+	  =====================================================
+	-->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-md-4 col-sm-6">
+					<div class="f-content">
+						<div class="f-logo">
+							<img src="assets/images/f-logo.png" alt="logo">
+						</div>
+						<div class="f-contact-info">
+							<ul>
+								<li class="d-flex align-items-end">
+									<span class="d-flex align-items-center justify-content-center circle"><img src="assets/svg-icon/phone.svg" alt="phone"></span>
+									<a href="tel:+880-17XXXXXXXXXX" class="ps-400 c00 s16">+880-17XXXXXXXXXX</a>
+								</li>
+								<li class="d-flex align-items-end">
+									<span class="d-flex align-items-center justify-content-center circle"><img src="assets/svg-icon/mail.svg" alt="mail"></span>
+									<a href="mailto:Demo@gmail.com" class="ps-400 c00 s16">Demo@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+						<div class="f-social-link">
+							<ul class="d-flex align-items-center">
+								<li><a href="javascript:void(0)"><img src="assets/svg-icon/Facebook.svg" alt="Facebook"></a></li>
+								<li><a href="javascript:void(0)"><img src="assets/svg-icon/Instagram.svg" alt="Instagram"></a></li>
+								<li><a href="javascript:void(0)"><img src="assets/svg-icon/Twitter.svg" alt="Twitter"></a></li>
+								<li><a href="javascript:void(0)"><img src="assets/svg-icon/LinkedIn.svg" alt="LinkedIn"></a></li>
+							</ul>
+						</div>
+						<div class="f-btn">
+							<a href="javascript:void(0)" class="tc s18 cff ps-700">Downloade App</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-3 col-5">
+					<div class="f-page-link">
+						<h3 class="f-title ps-700 s18 c00">Usefull Links</h3>
+						<ul>
+							<li><a href="about.html" class="ps-400 s14 c00">About Us</a></li>
+							<li><a href="living.html" class="ps-400 s14 c00">Living in</a></li>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">Testimonail</a></li>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">Upcoming</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-3 col-3">
+					<div class="f-page-link f-page-link-2">
+						<h3 class="f-title ps-700 s18 c00">FAQs</h3>
+						<ul>
+							<li><a href="contact.html" class="ps-400 s14 c00">Contact Us</a></li>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">harmonics</a></li>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">character</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-3 col-4">
+					<div class="f-page-link">
+						<h3 class="f-title ps-700 s18 c00">Browse</h3>
+						<ul>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">Zobra kafe</a></li>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">Treenayana</a></li>
+							<li><a href="javascript:void(0)" class="ps-400 s14 c00">Shop</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-3 col-4">
+					<div class="f-right-logo">
+						<img src="assets/images/footer-logo.png" alt="logo" class="img">
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="f-hr">
+		<div class="f-bottom-t">
+			<div class="container">
+				<p class="tc ps-400 s14 c00">SATORY 2021 Copyright All Right Reserved by Saruar Hosen</p>
+			</div>
+		</div>
+	</footer>
+	<!-- 
+	  =====================================================
+	  End Footer Section 
+	  =====================================================
+	-->
+
+	<!------------ JS HERE ------------>
+	<script src="assets/js/mixitup.min.js"></script>
+	<script>
+		// TAB 
+		function openCity(evt, cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+
+		// MIXITUP 
+		var containerEl = document.querySelector('.mix-filter');
+		var mixer = mixitup(containerEl);
+
+
+		// TAB 2
+		function Tabs() {
+			var bindAll = function() {
+				var menuElements = document.querySelectorAll('[data-tab]');
+				for (var i = 0; i < menuElements.length; i++) {
+					menuElements[i].addEventListener('click', change, false);
+				}
+			}
+
+			var clear = function() {
+				var menuElements = document.querySelectorAll('[data-tab]');
+				for (var i = 0; i < menuElements.length; i++) {
+					menuElements[i].classList.remove('active');
+					var id = menuElements[i].getAttribute('data-tab');
+					document.getElementById(id).classList.remove('active');
+				}
+			}
+
+			var change = function(e) {
+				clear();
+				e.target.classList.add('active');
+				var id = e.currentTarget.getAttribute('data-tab');
+				document.getElementById(id).classList.add('active');
+			}
+
+			bindAll();
+		}
+
+		var connectTabs = new Tabs();
+
+	</script>
+
+</body>
+
+</html>

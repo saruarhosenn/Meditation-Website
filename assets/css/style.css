@@ -1,0 +1,1261 @@
+/* 
+==============================
+Bacic Setup
+==============================
+*/
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	background: ;
+	color: ;
+}
+
+::selection {
+	background: ;
+	color: ;
+}
+
+::-webkit-scrollbar {
+	width: .8rem;
+}
+
+::-webkit-scrollbar-track {
+	background: #222222;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #FD7319;
+	height: 6rem;
+}
+
+a,
+span,
+label {
+	display: inline-block;
+}
+
+ul li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+	outline: 0;
+	border: 0;
+}
+
+button[type="submit"],
+button[type="reset"],
+button[type="button"] {
+	cursor: pointer;
+}
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1.5;
+	overflow-x: hidden;
+}
+
+/*=============================================================================== 
+=================================================================================
+Meditations Page Style Here
+=================================================================================
+===============================================================================*/
+/* 
+===============================
+Start Hero Section
+===============================
+*/
+.hero-section {
+	background: url(../images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 13rem;
+	padding-bottom: 10rem;
+}
+
+.dacstop-menu {
+	padding: 0 2.5rem;
+}
+
+.dacstop-menu ul li:not(:last-child) {
+	margin-bottom: 3rem;
+}
+
+.dacstop-menu ul li a {
+	height: 4.2rem;
+	line-height: 4.2rem;
+}
+
+.dacstop-menu ul li a:hover {
+	background: #B6A75B;
+}
+
+.dacstop-menu ul li:first-child a {
+	background: #B6A75B;
+}
+
+.hero-text {
+	margin-left: auto;
+	max-width: 65.5rem;
+}
+
+.hero-text h1 {
+	letter-spacing: .3rem;
+	line-height: 1.3;
+}
+
+/* 
+===============================
+End Hero Section
+===============================
+*/
+
+
+/* 
+===============================
+Start Satori Section
+===============================
+*/
+.satori-title {
+	margin-bottom: 7rem;
+}
+
+.satori-title p {
+	margin-top: 2.6rem;
+	max-width: 65.4rem;
+}
+
+/* 
+===============================
+End Satori Section
+===============================
+*/
+
+
+/* 
+===============================
+Start Event Section
+===============================
+*/
+.event-title {
+	margin-bottom: 2rem;
+}
+
+.event-wrapper {
+	margin: -0px !important;
+}
+
+.event-content {
+	padding: 0 3rem 1.5rem;
+}
+
+.event-name {
+	margin-top: 1.5rem;
+}
+
+.event-desc p:first-child {
+	margin: 1.1rem 0 2.1rem;
+}
+
+.event-desc p:last-child {
+	margin-top: 2.4rem;
+}
+
+.event-desc a {
+	width: 16.8rem;
+	min-height: 4.3rem;
+	line-height: 4.3rem;
+	background: #B6A75B;
+}
+
+.event-desc {
+	display: none;
+}
+
+.event:hover .event-desc {
+	display: block;
+}
+
+.swiper-container {
+	padding-bottom: 7rem;
+}
+
+/* 
+===============================
+End Event Section
+===============================
+*/
+
+
+/* 
+===============================
+Start Testimonial Section
+===============================
+*/
+.testimonial-section {
+	padding-bottom: 3rem;
+}
+
+.testimonial-title {
+	margin-bottom: 4rem;
+}
+
+.testimonial-content {
+	padding-left: 8rem;
+	padding-right: 5rem;
+}
+
+.client-fidback {
+	position: relative;
+	max-width: 50rem;
+	padding: 6rem 6rem 4rem;
+	position: absolute;
+	top: 55%;
+	left: -111%;
+	-webkit-transform: translateY(-55%);
+	-ms-transform: translateY(-55%);
+	transform: translateY(-55%);
+	background: #FFFFFF;
+}
+
+.client-fidback p:nth-child(2) {
+	margin-bottom: 3rem;
+}
+
+.client-fidback .client-rating {
+	margin-top: 1.2rem;
+}
+
+.client-fidback .quote {
+	position: absolute;
+	top: -4rem;
+	right: 7rem;
+}
+
+.other-clinet-fid {
+	margin-top: 6rem;
+}
+
+.other-clinet-rating {
+	margin: 1.2rem 0 1.6rem;
+}
+
+.other-clinet-rating li:first-of-type {
+	margin-right: 2rem;
+}
+
+.other-clinet-btn {
+	padding: 1.1rem 1.5rem;
+	background: #1A222A;
+}
+
+/* 
+===============================
+End Testimonial Section
+===============================
+*/
+
+
+/* 
+=============================================
+Start Courses Page & Courses Section Style
+=============================================
+*/
+.courses-section {
+	padding-bottom: 1.5rem;
+}
+
+.courses-title {
+	margin-bottom: 5rem;
+}
+
+.courses {
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.courses:hover {
+	-webkit-box-shadow: 0px 56px 47px rgba(40, 40, 40, 0.1);
+	box-shadow: 0px 56px 47px rgba(40, 40, 40, 0.1);
+}
+
+.courses .courses-content {
+	padding: .5rem 2.7rem 2.7rem
+}
+
+.courses-content .courses-name ul li:first-child {
+	margin-right: 1rem;
+}
+
+.courses-desc {
+	margin: 1rem 0 2rem;
+}
+
+.swiper-container1 {
+	padding-bottom: 8rem;
+}
+
+/* 
+==========================================
+End Courses Page & Courses Section Style
+==========================================
+*/
+
+
+/* 
+=============================================
+Start Session Page & Session Section Style 
+=============================================
+*/
+.session-section {
+	padding-bottom: 3rem;
+}
+
+.session-title {
+	margin-bottom: 5rem;
+}
+
+.swiper-container2 {
+	padding-bottom: 6rem;
+}
+
+.session .session-content {
+	padding: .5rem 2.7rem 2.7rem
+}
+
+.session-content .session-m-r ul li:first-child {
+	margin-right: 1rem;
+}
+
+.session-desc {
+	margin: .5rem 0 2rem;
+}
+
+/* 
+=============================================
+End Session Page & Session Section Style 
+=============================================
+*/
+
+
+/* 
+======================================================
+Start Featured Page & Featured Events Section Styele
+======================================================
+*/
+.featured-events-section {
+	padding-bottom: 4rem;
+}
+
+.featured-events-title {
+	margin-bottom: 5rem;
+}
+
+.swiper-container3 {
+	padding-bottom: 6rem;
+}
+
+.featured-events .featured-events-content {
+	padding: .5rem 2.7rem 2.7rem
+}
+
+.featured-events-img .fe-live-date {
+	position: absolute;
+	left: 8px;
+	bottom: 12px;
+	padding: .4rem 2rem;
+	background: #FD7319;
+}
+
+.featured-events-img .fe-date {
+	background: #000;
+	padding: .4rem 1rem;
+}
+
+.featured-events-desc p {
+	margin: .5rem 0 2.3rem;
+}
+
+.featured-events {
+	margin-top: 1rem;
+}
+
+/* 
+======================================================
+End Featured Page & Featured Events Section Styele
+======================================================
+*/
+
+
+/*=============================================================================== 
+=================================================================================
+Start Course Details Page & Session Details Page Style
+=================================================================================
+===============================================================================*/
+/* 
+===============================
+Start Reuseble Style
+===============================
+*/
+.cd-title ul li:first-child,
+.sd-title ul li:first-child {
+	margin-right: 1.5rem;
+}
+
+.cd-title h2,
+.sd-title h2 {
+	margin: .6rem 0 1rem;
+}
+
+.cd-img,
+.sd-img {
+	margin: 2rem 0 4.3rem;
+}
+
+.cd-btn,
+.sd-btn {
+	margin-bottom: 5rem;
+}
+
+.cd-text-box h3,
+.sd-text-box h3 {
+	margin-bottom: 3rem;
+}
+
+.reviews-title {
+	margin-bottom: 1rem;
+}
+
+.reviews {
+	padding: 2rem 3rem;
+	border: 2px solid #ECECEC;
+}
+
+.reviews-client-id {
+	margin-bottom: 2rem;
+}
+
+.reviews-client-id img {
+	margin-right: 1.5rem;
+}
+
+.reviews-start {
+	margin-top: 2rem;
+}
+
+/* 
+=================================
+Start Course Details Page Style 
+=================================
+*/
+.cd-follow-name {
+	margin-left: 2rem;
+	margin-right: 6rem;
+}
+
+.cd-follow-btn a {
+	min-width: 13rem;
+	height: 3.7rem;
+	line-height: 3.6rem;
+	border: .2rem solid #000000;
+}
+
+.cd-follow-btn a:hover {
+	background: #000;
+	color: #FFFFFF !important;
+}
+
+.cd-follow-desc {
+	margin-top: 1.8rem;
+	padding-left: 4rem;
+}
+
+.cd-hr {
+	margin: 6.5rem 0 7.5rem;
+	border: 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/* 
+=================================
+Start Session Details Page Style 
+=================================
+*/
+.session-details {
+	border-radius: 1.5rem;
+}
+
+.session-details-m-r {
+	margin-top: 1.5rem;
+}
+
+.session-details-m-r a::after {
+	content: "";
+	width: 100%;
+	height: .1rem;
+	display: block;
+	background: #B6A75B;
+	margin-top: -.2rem;
+}
+
+
+/*=============================================================================== 
+=================================================================================
+Events Details Page Style Here
+=================================================================================
+===============================================================================*/
+.events-details-text .ed-ul-1 {
+	margin-bottom: 2.5rem;
+}
+
+.events-details-text .ed-ul-1 li:first-child {
+	margin-right: 4rem;
+}
+
+.events-details-text .ed-ul-1 li a {
+	padding: .4rem 2rem;
+	background: #FD7319;
+}
+
+.events-details-text .ed-ul-2 li hr {
+	border: 0;
+	border-bottom: 1px solid #858585;
+	width: 2rem;
+	height: 1px;
+	margin-right: 1rem;
+}
+
+.events-details-text h3 {
+	margin-top: 1rem;
+}
+
+.events-details-text p {
+	margin: 3rem 0 4.5rem;
+}
+
+
+
+/*=============================================================================== 
+=================================================================================
+Gallary Page Style Here
+=================================================================================
+===============================================================================*/
+.tab {
+	overflow: hidden;
+	margin-bottom: 5rem;
+}
+
+.tab button {
+	width: 50%;
+	height: 80px;
+	line-height: 80px;
+	text-transform: uppercase;
+	background: #F6F6F6;
+	color: #000000;
+	font-size: 2.2rem;
+}
+
+.tab button.active {
+	background: #B6A75B;
+	color: #FFFFFF;
+}
+
+.main__tab .tabcontent {
+	width: 100%;
+	display: none;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeEffect {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.t-btn {
+	margin-bottom: 4rem;
+}
+
+.t-btn a {
+	background-color: transparent;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.t-btn a:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
+.b-nav-tab.active {
+	color: #B6A75B !important;
+	border-bottom: 2px solid #B6A75B;
+}
+
+.b-tab {
+	display: none;
+}
+
+.b-tab.active {
+	display: block;
+}
+
+.ga-btn a {
+	max-width: 29.4rem;
+	margin-top: 6rem;
+	background: #B6A75B;
+}
+
+.gallary-tab-video {
+	margin-top: 10rem;
+}
+
+.gallary-video {
+	margin-bottom: 1rem;
+}
+
+/*=============================================================================== 
+=================================================================================
+About Us Page Style Here
+=================================================================================
+===============================================================================*/
+
+.about-content {
+	max-width: 89.2rem;
+}
+
+.about-content p a::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #D63E3E;
+}
+
+.about-content > *:not(:last-child) {
+	margin-bottom: 3rem;
+}
+
+.about-content p.v-line {
+	padding-left: 2rem;
+}
+
+.about-content p.v-line::before {
+	content: "";
+	width: .4rem;
+	height: 100%;
+	background: #D63E3E;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.about-content ol {
+	padding-left: 7rem;
+}
+
+
+/*=============================================================================== 
+=================================================================================
+Sleep Page Style Here
+=================================================================================
+===============================================================================*/
+.sleep-title {
+	max-width: 80.7rem;
+}
+
+.sleep-title,
+.sleep-row {
+	margin-bottom: 5rem;
+}
+
+.sleep-music-video {
+	margin-bottom: .7rem;
+}
+
+
+/*=============================================================================== 
+=================================================================================
+Stress Page Style Here
+=================================================================================
+===============================================================================*/
+.stress-p-text {
+	margin-top: 3rem;
+}
+
+.stress-p-text p:last-child {
+	margin: 4.5rem 0;
+}
+
+.principles-text {
+	margin-top: 5rem;
+}
+
+.principles-text .p-title {
+	margin-bottom: 2rem;
+}
+
+.principles-text ul {
+	padding-left: 3.5rem;
+}
+
+.principles-text ul li {
+	list-style: disc;
+}
+
+.principles-text .p-ul-1 {
+	margin: 2rem 0 3rem;
+}
+
+.principles-text .p-ul-2 {
+	margin-top: 2rem;
+}
+
+.w-1030 {
+	margin: 4rem 0;
+	max-width: 1030px;
+	background: #B6A75B;
+	padding: 5rem 8rem;
+}
+
+.stress-p-text .md-title {
+	margin-bottom: 2rem;
+}
+
+
+/*=============================================================================== 
+=================================================================================
+Focuse Page Style Here
+=================================================================================
+===============================================================================*/
+.focuse-p-text {
+	margin: 2.5rem 0 5rem;
+}
+
+.listen-text {
+	margin-top: 5rem;
+	margin-bottom: 4rem;
+}
+
+.listen-text .p-title {
+	margin-bottom: 2rem;
+}
+
+.listen-text ul {
+	padding-left: 3.5rem;
+}
+
+.listen-text ul li {
+	list-style: disc;
+}
+
+.listen-text ul {
+	margin: 2rem 0 3rem;
+}
+
+.focuse-p-text .dm-title {
+	margin-bottom: 2rem;
+}
+
+.um-text {
+	margin-top: 3.5rem !important;
+}
+
+.um-text p:nth-child(2) {
+	margin: 2rem 0 3rem;
+}
+
+
+
+/*=============================================================================== 
+=================================================================================
+Body Yoga Page Style Here
+=================================================================================
+===============================================================================*/
+.body-title p:nth-child(2) {
+	margin: 2rem 0 2.5rem;
+}
+
+.body-row {
+	margin-top: 1rem;
+}
+
+.body-music-video {
+	margin-bottom: .5rem;
+}
+
+
+/*=============================================================================== 
+=================================================================================
+Detox Page Style Here
+=================================================================================
+===============================================================================*/
+.detox-title p:last-child {
+	margin: 2.5rem 0 3rem;
+}
+
+.detox-content p:nth-child(2) {
+	margin: 3rem 0;
+}
+
+.detox-yoga-routine > p {
+	margin-top: 2.5rem;
+}
+
+.detox-yoga-routine .routine {
+	margin-top: 2.7rem;
+}
+
+.detox-yoga-routine .routine p:first-child {
+	margin-bottom: .5rem;
+}
+
+.detox-yoga-routine .routine:last-child p:nth-child(3) {
+	margin: 2.7rem 0;
+}
+
+.detox-video {
+	margin-bottom: .6rem;
+}
+
+.detox-video-row {
+	margin-top: 4rem;
+}
+
+
+
+/*=============================================================================== 
+=================================================================================
+Shop Page Style Here
+=================================================================================
+===============================================================================*/
+.shop {
+	padding: 2.4rem 3rem;
+}
+
+.shop-text {
+	margin-top: 1.5rem;
+}
+
+.shop-text p:first-child {
+	margin-bottom: .5rem;
+}
+
+.shop-btn a {
+	margin-top: 3rem;
+	background: #B6A75B;
+}
+
+
+
+/*=============================================================================== 
+=================================================================================
+Living In Page Style Here
+=================================================================================
+===============================================================================*/
+.living-wrapper > *:not(:last-child) {
+	margin-bottom: 4.5rem;
+}
+
+.living-desc p:first-child {
+	margin-bottom: 2rem;
+}
+
+.living-video {
+	margin-bottom: .6rem;
+}
+
+
+
+/*=============================================================================== 
+=================================================================================
+SignIn & SignUp Page Style Here
+=================================================================================
+===============================================================================*/
+.s-column-2 {
+	padding-bottom: 7rem;
+}
+
+.signup-img-main {
+	height: 105rem !important;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.back-link {
+	position: absolute;
+	top: 5rem;
+	left: 7rem;
+}
+
+.back-link img {
+	margin-right: 1rem;
+}
+
+.sign-img-text {
+	padding: 0 8rem;
+	width: 100%;
+	position: absolute;
+	top: 16%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.sign-img-text p:nth-child(2) {
+	margin: 3rem 0 7.5rem;
+}
+
+.reg-logo {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: 5.5rem;
+}
+
+.sign-content,
+.contact-content {
+	width: 100%;
+	max-width: 42.6rem;
+}
+
+.sign-content > p {
+	margin: 1rem 0 5rem;
+}
+
+.sign-form:not(:last-child) {
+	margin-bottom: 3rem;
+}
+
+.sign-form label {
+	margin-bottom: 1rem;
+}
+
+.sign-form > input,
+.sign-form > textarea,
+.sign-form .pass-form {
+	height: 6.4rem;
+	border: 2px solid #8692A6;
+	line-height: 6.4rem;
+	padding-left: 2.5rem;
+	padding-right: 1.5rem;
+	border-radius: .6rem;
+}
+
+.sign-form > textarea {
+	height: auto;
+}
+
+.sign-form .pass-form input {
+	padding-right: 1rem;
+}
+
+.sign-form > input::-webkit-input-placeholder,
+.sign-form > textarea::-webkit-input-placeholder,
+.sign-form .pass-form input::-webkit-input-placeholder {
+	font-size: 1.6rem;
+	color: #696F79;
+}
+
+.sign-form > input::-moz-placeholder,
+.sign-form > textarea::-moz-placeholder,
+.sign-form .pass-form input::-moz-placeholder {
+	font-size: 1.6rem;
+	color: #696F79;
+}
+
+.sign-form > input:-ms-input-placeholder,
+.sign-form > textarea:-ms-input-placeholder,
+.sign-form .pass-form input:-ms-input-placeholder {
+	font-size: 1.6rem;
+	color: #696F79;
+}
+
+.sign-form > input::-ms-input-placeholder,
+.sign-form > textarea::-ms-input-placeholder,
+.sign-form .pass-form input::-ms-input-placeholder {
+	font-size: 1.6rem;
+	color: #696F79;
+}
+
+.sign-form > input::placeholder,
+.sign-form > textarea::placeholder,
+.sign-form .pass-form input::placeholder {
+	font-size: 1.6rem;
+	color: #696F79;
+}
+
+.sign-form .pass-form {
+	padding-right: 2.5rem;
+}
+
+.pass-form img {
+	width: 2.4rem;
+	height: 1.9rem;
+	cursor: pointer;
+}
+
+.sign-btn input {
+	background: #B6A75B;
+	border: 0;
+	cursor: pointer;
+	padding: 0;
+}
+
+.sign-content .or-text {
+	margin: 3rem 0;
+}
+
+.sign-content .or-text p::after,
+.sign-content .or-text p::before {
+	content: "";
+	background: #E5E5E5;
+	position: absolute;
+	top: 40%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 40%;
+	height: 1px;
+}
+
+.sign-content .or-text p::before {
+	left: 0;
+}
+
+.sign-content .or-text p::after {
+	right: 0;
+}
+
+.sign-content .s-social-link li a {
+	width: 6.5rem;
+	height: 6.5rem;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	border-radius: .6rem;
+}
+
+.sign-content .s-social-link li:not(:last-child) {
+	margin-right: 1.5rem;
+}
+
+.sign-content .c-new-acc {
+	margin-top: 5.2rem;
+}
+
+.sign-content .c-new-acc a {
+	text-decoration: underline !important;
+	color: #B6A75B !important;
+}
+
+.reg-google {
+	-webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	height: 6.4rem;
+	line-height: 6.4rem;
+	border-radius: .6rem;
+	background: #FFFFFF;
+}
+
+.reg-google ul li img {
+	vertical-align: middle;
+	margin-right: 2rem;
+}
+
+.check__main {
+	display: inline-block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 13px;
+}
+
+.check__main input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #EBEBEB;
+	border-radius: 50%;
+	border: 1px solid #1565D8;
+}
+
+.check__main input:checked ~ .checkmark {
+	background-color: #1565D8;
+}
+
+.checkmark::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.check__main input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.c-column {
+	padding-bottom: 4rem;
+}
+
+.map iframe {
+	height: 900px;
+}
+
+.contact-content h2 {
+	margin-bottom: 2rem;
+}
+
+.contact-content > p:nth-child(3) {
+	margin: 1rem 0;
+}
+
+.contact-content > p:nth-child(4) {
+	margin-bottom: 6rem;
+}
+
+.contact-content p:last-child {
+	margin-top: 2rem;
+}
+
+.contact-content p:last-child a {
+	text-decoration: underline !important;
+}
+
+/* 
+================================
+Back To Top Btn
+================================
+*/
+#up__btn {
+	opacity: 0;
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	z-index: 999999;
+	font-size: 1.8rem;
+	background: #B6A75B;
+	width: 5.5rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	-webkit-animation: myBtn 3.5s infinite linear;
+	animation: myBtn 3.5s infinite linear;
+}
+
+#up__btn:hover {
+	-webkit-transform: translateY(-.7rem);
+	-ms-transform: translateY(-.7rem);
+	transform: translateY(-.7rem);
+}
+
+@-webkit-keyframes myBtn {
+	0% {
+		right: 3rem;
+		bottom: 4rem;
+	}
+
+	25% {
+		bottom: 2rem;
+		right: 3rem;
+	}
+
+	50% {
+		right: 3rem;
+		bottom: 4rem;
+	}
+
+	75% {
+		bottom: 2rem;
+		right: 3rem;
+	}
+
+	100% {
+		right: 3rem;
+		bottom: 4rem;
+	}
+}
+
+@keyframes myBtn {
+	0% {
+		right: 3rem;
+		bottom: 4rem;
+	}
+
+	25% {
+		bottom: 2rem;
+		right: 3rem;
+	}
+
+	50% {
+		right: 3rem;
+		bottom: 4rem;
+	}
+
+	75% {
+		bottom: 2rem;
+		right: 3rem;
+	}
+
+	100% {
+		right: 3rem;
+		bottom: 4rem;
+	}
+}

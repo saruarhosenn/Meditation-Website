@@ -1,0 +1,603 @@
+@media (max-width: 1199px) {
+
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+	/* 
+	====================
+	Hero Section
+	====================
+	*/
+	.hero-text {
+		max-width: 60rem;
+	}
+
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+
+	/* 
+	========================================
+	Featured Page & Featured Events Section
+	========================================
+	*/
+	.featured-events-img .fe-live-date {
+		left: 7px;
+		bottom: 11px;
+	}
+
+	/*========================================================
+	==========================================================
+	SignIn & SignUp Page Style ===============================
+	==========================================================
+	*/
+	.back-link {
+		top: 4rem;
+		left: 5rem;
+	}
+
+	.sign-content > p {
+		margin: 1rem 0 3.5rem;
+	}
+}
+
+@media (max-width: 991px) {
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+
+	/* 
+	======================
+	Testimonial Section
+	======================
+	*/
+	.testimonial-content {
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+
+	.client-fidback {
+		max-width: 40rem;
+		padding: 6rem 4rem 4rem;
+		left: -76%;
+	}
+
+	.client-fidback .quote {
+		position: absolute;
+		top: -3.5rem;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+
+
+	/*===========================================================
+	=============================================================
+	Course Details Page Style ===================================
+	=============================================================
+	*/
+	.cd-follow-content {
+		margin-top: 5rem;
+	}
+
+	.cd-follow-desc {
+		padding-left: 0rem;
+	}
+
+
+
+	/*===========================================================
+	=============================================================
+	Shop Page Style =============================================
+	=============================================================
+	*/
+	.shop {
+		padding: 2rem;
+	}
+
+	.shop-text p {
+		font-size: 1.4rem;
+	}
+
+
+	/*========================================================
+	==========================================================
+	SignIn & SignUp Page Style ===============================
+	==========================================================
+	*/
+	.sign-content .reg-title {
+		margin-top: 2rem;
+	}
+
+	.back-link {
+		top: 2rem;
+		left: 18rem;
+	}
+
+	.sign-content {
+		margin-top: 6rem;
+	}
+
+	.sign-content > p {
+		margin: 1rem 0 5rem;
+	}
+
+	.signup-img-main,
+	.sign-img .sign-img-main {
+		height: 80rem !important;
+		-o-object-fit: cover;
+		object-fit: cover;
+		-o-object-position: center;
+		object-position: center;
+	}
+
+	.sign-img-text {
+		padding: 0 18rem;
+	}
+
+	.map iframe {
+		height: 400px;
+	}
+
+	.c-column {
+		padding-top: 10rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	/* 
+	===============================
+	Reuseble CSS code
+	===============================
+	*/
+	.filtering-btn {
+		margin-bottom: 4rem;
+	}
+
+	.filtering-btn button {
+		font-size: 1.8rem;
+	}
+
+	.filtering-btn button:not(:last-child) {
+		margin-right: 2rem;
+	}
+
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+	/* 
+	======================
+	Hero Section
+	======================
+	*/
+	.hero-section {
+		padding-top: 18rem;
+		padding-bottom: 10rem;
+	}
+
+	.hero-text {
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	/* 
+	=====================
+	Event Section
+	=====================
+	*/
+	.event .event-img img {
+		width: 100%;
+		height: auto;
+	}
+
+	/* 
+	=====================
+	Testimonial Section
+	=====================
+	*/
+	.testimonial-content {
+		position: relative;
+	}
+
+	.testimonial-vector {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.client-fidback {
+		width: 100%;
+		max-width: 100%;
+		padding: 6rem 4rem 4rem;
+		top: 100%;
+		left: 0;
+		-webkit-box-shadow: 0px 16px 43px rgba(0, 0, 0, 0.07) !important;
+		box-shadow: 0px 16px 43px rgba(0, 0, 0, 0.07) !important;
+	}
+
+	.other-clinet-fid {
+		margin-top: 20rem;
+	}
+
+	/* 
+	=================================
+	Courses Page & Courses Section
+	=================================
+	*/
+	.courses .courses-content {
+		padding: .5rem 2rem 2rem
+	}
+
+	.courses-name h4 {
+		font-size: 1.6rem;
+	}
+
+	.courses-name ul li:last-child {
+		font-size: 1.4rem;
+	}
+
+	/* 
+	========================================
+	Featured Page & Featured Events Section
+	========================================
+	*/
+	.featured-events-img .fe-live-date {
+		left: 6px;
+		bottom: 10px;
+	}
+
+
+
+	/*===========================================================
+	=============================================================
+	Shop Page Style =============================================
+	=============================================================
+	*/
+	.shop {
+		padding: 2rem 2.5rem;
+	}
+
+	.shop-text p {
+		font-size: 1.6rem;
+	}
+
+
+	/*========================================================
+	==========================================================
+	SignIn & SignUp Page Style ===============================
+	==========================================================
+	*/
+	.back-link {
+		top: 2rem;
+		left: 8rem;
+	}
+
+	.signup-img-main,
+	.sign-img .sign-img-main {
+		height: 60rem !important;
+	}
+
+	.sign-img-text {
+		padding: 0 6rem;
+	}
+
+	.sign-img-text p:nth-child(2) {
+		margin: 3rem 0;
+	}
+
+}
+
+@media (max-width: 680px) {
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+	.courses-section,
+	.session-section {
+		padding-bottom: 7rem;
+	}
+
+	.featured-events-section {
+		padding-bottom: 8.5rem;
+	}
+}
+
+@media (max-width: 575px) {
+
+	/* 
+	===============================
+	Reuseble CSS code
+	===============================
+	*/
+	.py-100 {
+		padding: 5.5rem 0;
+	}
+
+	.pt-100 {
+		padding-top: 5.5rem;
+	}
+
+	.pb-100 {
+		padding-bottom: 5.5rem;
+	}
+
+	.s49,
+	.s42,
+	.s40,
+	.s38 {
+		font-size: 3.2rem;
+	}
+
+	.primary-btn,
+	.secondary-btn {
+		font-size: 1.6rem;
+	}
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+	/* 
+	====================
+	Hero Section
+	====================
+	*/
+	.hero-text {
+		padding-right: 1rem;
+	}
+
+	.hero-text h1 {
+		font-size: 5rem;
+		line-height: 1;
+	}
+
+	/* 
+	=====================
+	Events Section
+	=====================
+	*/
+	.event-title {
+		margin-bottom: 5rem;
+	}
+
+	/* 
+	=====================
+	Testimonial Section
+	=====================
+	*/
+	.testimonial-section {
+		padding: 4rem 0 4rem;
+	}
+
+	.testimonial-title {
+		margin-bottom: 4.3rem;
+	}
+
+	/* 
+	=================================
+	Courses Page & Courses Section
+	=================================
+	*/
+	.courses .courses-content {
+		padding: .5rem 2.7rem 2.7rem
+	}
+
+	.courses-name h4 {
+		font-size: 2.2rem;
+	}
+
+	.courses-name ul li:last-child {
+		font-size: 1.6rem;
+	}
+
+	/* 
+	==========================
+	Courses & Session Section
+	==========================
+	*/
+	.courses-section,
+	.session-section {
+		padding-bottom: 4rem;
+	}
+
+	/* 
+	========================================
+	Featured Page & Featured Events Section
+	========================================
+	*/
+	.featured-events-section {
+		padding-bottom: 5.5rem;
+	}
+
+	.featured-events-img .fe-live-date {
+		left: 20px;
+		bottom: 25px;
+	}
+
+
+	/*========================================================
+	==========================================================
+	About Page Style =========================================
+	==========================================================
+	*/
+	.about-content ol {
+		padding-left: 4rem;
+	}
+
+
+	/*========================================================
+	==========================================================
+	Stress Page Style ========================================
+	==========================================================
+	*/
+	.w-1030 {
+		width: 100%;
+		padding: 5rem 2rem;
+	}
+
+
+
+	/*========================================================
+	==========================================================
+	Gallary Page Style ===================================
+	==========================================================
+	*/
+	.tab button {
+		height: 65px;
+		line-height: 65px;
+		font-size: 2rem;
+	}
+
+	.t-btn a {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+	/*========================================================
+	==========================================================
+	SignIn & SignUp Page Style ===============================
+	==========================================================
+	*/
+	.sign-content .reg-title {
+		margin-top: 0rem;
+	}
+
+	.back-link {
+		top: 5rem
+	}
+
+	.s-column {
+		padding-top: 5rem;
+	}
+
+	.reg-logo {
+		bottom: 3rem;
+	}
+
+	.sign-img-text {
+		top: 10%;
+		padding: 0 2rem;
+	}
+
+	.sign-img-text p:nth-child(2) {
+		margin: 3rem 0;
+	}
+
+	.sign-content .s-social-link li a {
+		width: 5.5rem;
+		height: 5.5rem;
+	}
+
+	.map iframe {
+		height: 300px;
+	}
+
+	.c-column {
+		padding-top: 10rem;
+	}
+
+
+	/* 
+	==========================
+	Back To Top Btn
+	==========================
+	*/
+	#up__btn {
+		width: 4.5rem;
+		height: 4.5rem;
+		line-height: 4.5rem;
+	}
+}
+
+@media (max-width: 475px) {
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+	/* 
+	======================
+	Testimonial Section
+	======================
+	*/
+	.testimonial-vector {
+		position: absolute;
+		top: -4rem;
+	}
+
+	.client-img > img {
+		width: 100%;
+		height: auto;
+	}
+
+
+	/*========================================================
+	==========================================================
+	SignIn & SignUp Page Style ===============================
+	==========================================================
+	*/
+	.back-link {
+		left: 4rem;
+	}
+}
+
+@media (max-width: 475px) {
+
+	/*========================================================
+	==========================================================
+	Meditations Page Style ===================================
+	==========================================================
+	*/
+	/* 
+	=====================
+	Testimonial Section
+	=====================
+	*/
+	.client-fidback {
+		padding: 6rem 2rem 2rem;
+	}
+}
+
+@media (max-width: 449px) {
+
+	/*========================================================
+	==========================================================
+	Course Details Page Style ================================
+	==========================================================
+	*/
+	.cd-follow-btn {
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+
+
+	/*========================================================
+	==========================================================
+	Gallary Page Style ===================================
+	==========================================================
+	*/
+	.t-btn button:not(:last-child) {
+		margin-bottom: 1rem;
+		margin-right: 3rem;
+	}
+}
